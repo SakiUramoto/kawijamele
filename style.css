@@ -61,3 +61,82 @@ body{
     margin: 0 auto;
     font-size: 20px;
 }
+.price{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nail_pc{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+.price_list{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+.menu{
+    border-bottom: 1px solid #8d8b8b;
+}
+.price_container{
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+}
+.menu span{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.price_concept{
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+.cocept_txst{
+    font-size: 8px;
+}
+.price_list span{
+    font-size: 9px;
+    margin: 0 10px;
+}
+.price_list h3{
+    margin: 0;
+}
+.price_list h5{
+    margin: 0;
+    font-size: 6px;
+}
+.price_list p{
+    font-size: 8px;
+}
+.simple{
+    flex: 1;
+    padding: 20px;
+}
+.sample{
+    flex: 1;
+    padding: 20px;
+}
+.puratina{
+    flex: 1;
+    padding: 20px;
+}
+.contact{
+    text-align: center;
+    padding: 20px;
+}
+.contact a{
+    text-decoration: none;
+}
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color:rgba(44, 44, 44, 0.63);
+  border-radius: 3px;
+  padding: 8px 35px;  
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #919090;
+}
