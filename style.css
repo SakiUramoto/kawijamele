@@ -244,3 +244,15 @@ table{
       margin: 30px;
       padding-bottom: 50px;
   }
+  footer{
+    text-align: center;
+}
+.copyright{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    border-top: 1px solid #8d8b8b;
+}
+footer p{
+    font-family: sans-serif;
+}
