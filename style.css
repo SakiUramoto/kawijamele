@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    margin: 0　auto;
+    font-family: serif;
+}
+.tittle_logo{    
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.tittle_logo img{
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+}
