@@ -140,3 +140,35 @@ a.btn--orange:hover {
   color: #fff;
   background: #919090;
 }
+.shop_map{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+.shop_title{
+    border-bottom: 1px solid #8d8b8b;
+}
+.shop_informaition{
+    float: left;
+}
+.shop_title span{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.map{
+    float: right;
+    
+}
+.shop_informaition tr,th,td{
+    border: 1px solid #999;
+    padding: 10px;    
+}
+table{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    left: -22px;
+}
+.shop_container{
+    margin: 0;
+}
