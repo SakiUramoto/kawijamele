@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    height: auto;
     margin: 0　auto;
     font-family: serif;
 }
@@ -166,8 +167,6 @@ a.btn--orange:hover {
 table{
     display: inline-block;
     text-align: left;
-    position: relative;
-    left: -22px;
 }
 .shop_container{
     margin: 0;
