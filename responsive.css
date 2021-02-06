@@ -1,4 +1,10 @@
 @media screen and (max-width: 736px){
+    .pc-br{
+        display: none;
+    }
+    .sp-br{
+        display: block;
+    }
     .tittle_logo img{
         width: 100%;
     }
@@ -7,11 +13,17 @@
     }
     .room{
         display: block;
+        text-align: center;
+        height: auto;
     }
-    .room img{
-     display: block;
-     width: 100%;
-     height: auto;
+    .room1{
+        margin: 10px 0;
+    }
+    .room2{
+        margin: 10px 0;
+    }
+    .room3{
+        margin: 10px 0;
     }
     .price_list{
         display: block;
