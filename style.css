@@ -1,11 +1,11 @@
 body{
     width: 100%;
     height: auto;
-    margin: 0　auto;
+    margin: 0 auto;
     font-family: serif;
 }
 .tittle_logo{    
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     
 }
@@ -15,14 +15,18 @@ body{
     margin: 0 auto;  
 }
 .concept{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 50px 0;
 }
 .concept_container{  
     display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 .concept_title{
+    flex: 3;
+    width: 100%;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -38,15 +42,42 @@ body{
 .room{
     display: flex;
     justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
     
 }
-.room img{
-    width: 25%;
-    height: 235px;
-    padding: 30px;
-
+.room1 {
+    background-image: url("image/Instagram_201128_0-1150x1150.jpg");  /* 表示する画像 */
+    background-size: cover;
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: left top;  /* 横長画像の左上を基準に表示 */
+    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+    margin: 0 30px;
+}
+.room2 {
+    background-image: url("image/Instagram_201128_1.jpg");  /* 表示する画像 */
+    background-size: cover;
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: left top;  /* 横長画像の左上を基準に表示 */
+    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+    margin: 0 30px;
+}
+.room3 {
+    background-image: url("image/Instagram_201128_13.jpg");  /* 表示する画像 */
+    background-size: cover;
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: left ;  /* 横長画像の左上を基準に表示 */
+    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+    margin: 0 30px;
 }
 .profile{
+    flex: 1;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -63,26 +94,30 @@ body{
     font-size: 20px;
 }
 .price{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .nail_pc{
     display: flex;
-    max-width: 1200px;
     justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 .price_list{
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     text-align: center;
 }
 .menu{
+    max-width: 1300px;
+    margin: 0 auto;
     border-bottom: 1px solid #8d8b8b;
 }
 .price_container{
     background-color: #F6F6F6;
     padding-bottom: 40px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 .menu span{
     font-size: 20px;
@@ -142,41 +177,55 @@ a.btn--orange:hover {
   background: #919090;
 }
 .shop_map{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     height: auto;
 }
 .shop_title{
+    max-width: 1300px;
+    margin: 0 auto;
     border-bottom: 1px solid #8d8b8b;
 }
-.shop_informaition{
-    float: left;
+.shop_information{
+    flex: 1;
+    width: 100%;
 }
 .shop_title span{
     font-size: 20px;
     padding: 0 10px;
 }
 .map{
-    float: right;
-    
+    width: 100%;
+   flex: 1;
 }
+.googlemap{    
+    width:100%;    
+    text-align: center;    
+}
+
 .shop_informaition tr,th,td{
     border: 1px solid #999;
     padding: 10px;    
 }
 table{
-    display: inline-block;
     text-align: left;
+    width: 100%;
+    position: relative;
+    top: 0;
 }
 .shop_container{
-    margin: 0;
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 .sns{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
 .sns_title{
+    max-width: 1300px;
+    margin: 0 auto;
     border-bottom: 1px solid #8d8b8b;
     
 }
@@ -185,6 +234,8 @@ table{
     padding: 0 10px;
 }
 .instagram{
+    max-width: 1300px;
+    margin: 0 auto;
     text-align: center;
     
 }
@@ -238,16 +289,17 @@ table{
     transform: rotateX(360deg);
   }
   .instagram_pic{
+      max-width: 1300px;
+      margin: 0 auto;
       display: flex;
-      justify-content: space-between;
-      margin: 30px;
+      justify-content: space-between;      
       padding-bottom: 50px;
   }
   footer{
     text-align: center;
 }
 .copyright{
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
     border-top: 1px solid #8d8b8b;

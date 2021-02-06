@@ -1,44 +1,31 @@
-@media screen and (max-width: 768px)
-{     
-    body{
+@media screen and (max-width: 736px){
+    .tittle_logo img{
         width: 100%;
-        margin: 0;
-        padding: 0;
     }
-    .title_logo img{
-        width: 100%;
-        height: auto;
-    }
-    .concept{
-        max-width: 100%;
-        margin: 0;
-    }
-    .concept_container{
+    .concept_container{  
         display: block;
     }
     .room{
         display: block;
     }
     .room img{
-        width: 100%;
-        height: auto
-    }
-    .price{
-        width: 100%;
-        margin: 0 ;
-    }
-    .nail_pc{
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    .nail_pc img{
-        width: 100%;
-        height: auto;
+     display: block;
+     width: 100%;
+     height: auto;
     }
     .price_list{
-        width: 100%;
         display: block;
-        height: auto;
+    }
+    .shop_container{
+        display: block;
+    }
+    .map{
+        width: 100%;
+    }
+    .googlemap iframe{
+        width:100%;
+    }
+    .instagram_pic{
+        display: none;
     }
 }
