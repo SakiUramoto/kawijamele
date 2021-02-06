@@ -9,13 +9,28 @@ body{
 }
 .tittle_logo{    
     max-width: 100%;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
-.tittle_logo img{
+.main_sp{
+    display: none;
+}
+.main_pc{
     display: block;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;  
+}
+.tittle_logo h1{
+    position: absolute;
+    top: 104px;
+    right: 201px;
+    color: white;
+    font-family: -webkit-pictograph;
+}
+.tittle_logo p{
+    position: absolute;
+    top: 170px;
+    right: 278px;
+    color: white;
 }
 .concept{
     max-width: 100%;
@@ -224,27 +239,7 @@ table{
     max-width: 1300px;
     margin: 0 auto;
 }
-.sns{
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-.sns_title{
-    max-width: 1300px;
-    margin: 0 auto;
-    border-bottom: 1px solid #8d8b8b;
-    
-}
-.sns_title span{
-    font-size: 20px;
-    padding: 0 10px;
-}
-.instagram{
-    max-width: 1300px;
-    margin: 0 auto;
-    text-align: center;
-    
-}
+
 .instagram-media{
     display: inline;
 }
@@ -254,7 +249,7 @@ table{
     position: relative;
     display: inline-block;
     height: 50px;/*高さ*/
-    width: 250px;/*幅*/
+    width: 200px;/*幅*/
     text-align: center;/*中身を中央寄せ*/
     font-size: 24px;/*文字のサイズ*/
     line-height: 50px;/*高さと合わせる*/
@@ -294,13 +289,7 @@ table{
     -ms-transform: rotateX(360deg);
     transform: rotateX(360deg);
   }
-  .instagram_pic{
-      max-width: 1300px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;      
-      padding-bottom: 50px;
-  }
+
   footer{
     text-align: center;
 }
