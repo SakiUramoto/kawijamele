@@ -14,6 +14,7 @@
         display: block;
     }
     .tittle_logo h1 {
+        display: block;
         position: absolute;
         top: 137px;
         right: 50px;
@@ -21,6 +22,7 @@
         font-family: -webkit-pictograph;
     }
     .tittle_logo p {
+        display: block;
         position: absolute;
         top: 200px;
         right: 130px;
@@ -29,22 +31,73 @@
     .concept_container{  
         display: block;
     }
+    .concept_title{
+        margin: 0;
+    }
     .room{
-        display: block;
-        text-align: center;
-        height: auto;
+        margin-top: 10vw;
     }
-    .room1{
-        display: block;
-        margin: 20px auto;
+    .room_1 h3{
+        font-size: 1.3rem;
+        position: absolute;
+        left: 51vw;
     }
-    .room2{
-        display: block;
-        margin: 20px auto;
+    .room_1 h4{
+        position: absolute;
+        top: 17%;
+        right: -113%;
+        font-size: 0.1rem;
     }
-    .room3{
-        display: block;
-        margin: 20px auto;
+    .room_1 p{
+        position: absolute;
+        left: 40vw;
+        font-size: 1rem;
+    }
+ 
+    .room_2{
+        position: relative;
+        top: -10vw;
+    }
+    .room_2 h3{
+        font-size: 1.3rem;
+        position: absolute;
+        right: 45vw;
+        top: 42vw;
+    }
+    .room_2 h4{
+        position: absolute;
+        top: 107%;
+        right: 4%;
+        font-size: 0.1rem;
+    }
+    
+    .room_2 p{
+        position: absolute;
+        left: 33vw;
+        top: 40vw;
+        font-size: 1rem;
+    }
+    .room_3{
+        position: absolute;
+        top: 340vw;
+    }  
+    .room_3 p{
+        position: absolute;
+        left: 25vw;
+        top: 6vw;
+        font-size: 1rem;
+    }
+    .room_3 h3{
+        font-size: 1.3rem;
+        position: absolute;
+        right: 23vw;
+        top: 34vw;
+    }
+    .room_3 h4{
+        position: absolute;
+        top: 100%;
+        left: 29%;
+        font-size: 0.1rem;
     }
     .price_list{
         display: block;
