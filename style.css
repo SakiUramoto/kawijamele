@@ -87,7 +87,7 @@ body{
     font-size: 30px;
     position: absolute;
     left: 107%;
-    border-bottom: black solid 2px;
+    border-bottom: #777676 solid 1px;
 
 }
 .room_1 h4{
@@ -109,7 +109,7 @@ body{
     position: absolute;
     right: 33%;
     top: 97%;
-    border-bottom: black solid 2px;
+    border-bottom: #777676 solid 1px;
 }
 .room_2 p{
     position: absolute;
@@ -136,7 +136,7 @@ body{
     position: absolute;
     right: -12%;
     top: 77%;
-    border-bottom: black solid 2px;
+    border-bottom: #777676 solid 1px;
 }
 .room_3 p{
     writing-mode: vertical-lr;
