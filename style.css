@@ -3,6 +3,8 @@ body{
     height: auto;
     margin: 0 auto;
     font-family: serif;
+    color: #777676;
+    background-color: #EDEDEA;
 }
 .sp-br{
     display: none;
@@ -14,9 +16,15 @@ body{
 .main_sp{
     display: none;
 }
+.tittle_logo h1{
+ display: none;
+}
+.tittle_logo p{
+    display: none;
+}
 .main_pc{
     display: block;
-    max-width: 1300px;
+    width: 100%;
     margin: 0 auto;  
 }
 .tittle_logo h1{
@@ -47,7 +55,7 @@ body{
     width: 100%;
     text-align: center;
     display: block;
-    margin: 0 auto;
+    margin: 65px;
 }
 
 .concept_title h2{
@@ -58,47 +66,95 @@ body{
     margin-top: 0;
 }
 .room{
-    display: flex;
-    justify-content: center;
     max-width: 1300px;
     margin: 0 auto;
-    
 }
-.room1 {
-    background-image: url("image/Instagram_201128_0-1150x1150.jpg");  /* 表示する画像 */
-    background-size: cover;
-    width:  180px;       /* ※縦横を同値に */
-    height: 180px;       /* ※縦横を同値に */
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    background-position: left top;  /* 横長画像の左上を基準に表示 */
-    display: inline-block;          /* 複数の画像を横に並べたい場合 */
-    margin: 0 30px;
+.room1{
+    width: 100%;
+    height: auto;
 }
-.room2 {
-    background-image: url("image/Instagram_201128_1.jpg");  /* 表示する画像 */
-    background-size: cover;
-    width:  180px;       /* ※縦横を同値に */
-    height: 180px;       /* ※縦横を同値に */
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    background-position: left top;  /* 横長画像の左上を基準に表示 */
-    display: inline-block;          /* 複数の画像を横に並べたい場合 */
-    margin: 0 30px;
+.room_1{
+    width: 45%;
+    position: relative;
 }
-.room3 {
-    background-image: url("image/Instagram_201128_13.jpg");  /* 表示する画像 */
-    background-size: cover;
-    width:  180px;       /* ※縦横を同値に */
-    height: 180px;       /* ※縦横を同値に */
-    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    background-position: left ;  /* 横長画像の左上を基準に表示 */
-    display: inline-block;          /* 複数の画像を横に並べたい場合 */
-    margin: 0 30px;
+.room_1 p{
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 98%;
+    font-size: 20px;
+}
+.room_1 h3{
+    font-size: 30px;
+    position: absolute;
+    left: 107%;
+    border-bottom: black solid 2px;
+
+}
+.room_1 h4{
+    position: absolute;
+    right: -59%;
+    top: 3%;
+}
+.room_2{
+    position: relative;
+    top: -250px;
+    left: 40%;
+    width: 60%;
+}
+.room2{
+    width: 100%;
+}
+.room_2 h3{
+    font-size: 30px;
+    position: absolute;
+    right: 33%;
+    top: 97%;
+    border-bottom: black solid 2px;
+}
+.room_2 p{
+    position: absolute;
+    top: 96%;
+    right: 0%;
+    font-size: 20px;
+}
+.room_2 h4{
+    position: absolute;
+    right: 0%;
+    top: 102%;
+}
+.room_3{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 203%;
+}
+.room3{
+    width: 100%;
+}
+.room_3 h3{
+    font-size: 30px;
+    position: absolute;
+    right: -12%;
+    top: 77%;
+    border-bottom: black solid 2px;
+}
+.room_3 p{
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 53%;
+    right: -15%;
+    font-size: 20px;
+}
+.room_3 h4{
+    position: absolute;
+    right: -65%;
+    top: 90%;;
 }
 .profile{
     flex: 1;
     display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 65px auto;
 }
 .profile h4{
     display: block;
@@ -120,6 +176,7 @@ body{
     justify-content: space-between;
     max-width: 1300px;
     margin: 0 auto;
+    padding: 25px 0;
 }
 .price_list{
     margin: 0 auto;
