@@ -13,6 +13,38 @@
         height: auto;
         display: block;
     }
+    .menu{
+        font-size: 1.3rem;
+        margin: 0 2vw;
+    }
+    .menu span{
+        font-size: 1.0rem;
+    }
+    .yomogi_menu{
+        font-size: 1.3rem;
+        margin: 0 2vw;
+    }
+    .yomogi_menu span{
+        font-size: 1.0rem;
+    }
+    .shop_title{
+        font-size: 1.3rem;
+        margin: 0 2vw;
+    }
+    .shop_title span{
+        font-size: 1.0rem;
+    }
+    .yomogi_consept h3{
+        font-size: 1rem;
+    }
+    .moringa h3{
+        font-size: 1rem;
+    }
+    .price_concept{
+        margin: 0 2vw;
+    }
+
+
     .tittle_logo h1 {
         display: block;
         position: absolute;
@@ -36,6 +68,7 @@
     }
     .room{
         margin-top: 10vw;
+        margin: 0 2vw;
     }
     .room_1 h3{
         font-size: 1.3rem;
@@ -45,7 +78,7 @@
     .room_1 h4{
         position: absolute;
         top: 17%;
-        right: -113%;
+        right: -122%;
         font-size: 0.1rem;
     }
     .room_1 p{
@@ -66,8 +99,8 @@
     }
     .room_2 h4{
         position: absolute;
-        top: 107%;
-        right: 4%;
+        top: 111%;
+        right: 8%;
         font-size: 0.1rem;
     }
     
@@ -116,5 +149,35 @@
     }
     .shop_information{
         font-size: 1px;
+    }
+    .yomogi_contents{
+        display: block;
+    }
+    .yomogi_pic{
+        width: 100%;
+    }
+    .yomogi_text h2{
+        text-align: center;
+        margin: 0 2vw;
+    }
+    .yomogi_text p{
+        text-align: center;
+        margin: 3vw 2vw;
+    }
+    .yomogi_consept p{
+        font-size: 11px;
+        right: 5%;
+    }
+    .moringa_text h2{
+        text-align: left;  
+          
+    }
+    .moringa h3{
+        top: -12vw;
+    }
+    .moringa_text p{
+        font-size: 12px;
+        text-align: left;
+
     }
 }
