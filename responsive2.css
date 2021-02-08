@@ -1,0 +1,18 @@
+@media screen and (max-width: 400px){
+    .tittle_logo h1{
+        right: 8vw;
+    }
+    .room_1 h4{
+        top: 16vw;
+    }
+    .room_3{
+        position: absolute;
+        top: 203%;
+    }
+    .yomogi_consept p {
+        font-size: 8px;
+    }
+    .moringa_text p{
+        font-size: 8px;
+    }
+}

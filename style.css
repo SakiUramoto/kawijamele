@@ -126,7 +126,7 @@ body{
     width: 30%;
     height: auto;
     position: absolute;
-    top: 203%;
+    top: 247%;
 }
 .room3{
     width: 100%;
@@ -253,6 +253,85 @@ a.btn--orange {
 a.btn--orange:hover {
   color: #fff;
   background: #919090;
+}
+.yomogi_menu{
+    max-width: 1300px;
+    margin: 0 auto;
+    border-bottom: 1px solid #8d8b8b;
+}
+.yomogi_menu span{
+    font-size: 20px;
+    padding: 0 10px;
+
+}
+.yomogi{
+    max-width: 1300px;
+    margin: 0 auto;
+    height: auto;
+}
+.yomogi_contents{
+    display: flex;
+    margin-top: 30px;
+}
+.yomogi_pic{
+    flex: 1;
+    width: 50%;
+}
+.yomogi_text{
+    flex: 1;
+    text-align: center;
+}
+.yomogi_text p{
+    font-size: 13px; 
+    text-align: left;   
+}
+.yomogi_text h2{
+    text-align: left;
+    margin: 0;
+    font-size: 18px;
+}
+.yomogi_consept{
+    position: relative;
+}
+.yomogi_consept h3{
+    position: absolute;
+    writing-mode: vertical-lr;
+    right: 57%;
+    top: 0%;
+    border-left: solid 1px;
+}
+.yomogi_consept p{
+    position: absolute;
+    right: 9%;
+    top: 14%;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.moringa{
+    position: relative;
+}
+.moringa h3{
+    position: absolute;
+    right: 0%;
+    top: 70%;
+    border-bottom: solid 1px;
+
+}
+.moringa_text{
+    margin: 10px 0;
+}
+.moringa_pic{
+    width: 30%;
+    position: absolute;
+    right: 0%;
+}
+.yomogi_pic2{
+    width: 34%;
+    position: relative;
+    right: 33%;
 }
 .shop_map{
     max-width: 100%;
