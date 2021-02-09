@@ -3,11 +3,20 @@
         right: 8vw;
     }
     .room_1 h4{
-        top: 16vw;
+        top: 5vw;
+    }
+    .room_1 h3{
+        left: 48vw;
+    }
+    .room_1 p{
+        left: 38vw;
+    }
+    .room_2 h3{
+        right: 48vw;
     }
     .room_3{
         position: absolute;
-        top: 202%;
+        top: 198%;
     }
     .yomogi_consept p {
         font-size: 8px;
