@@ -12,7 +12,7 @@
         width: 100%;
         height: auto;
         display: block;
-    }
+    } 
     .menu{
         font-size: 1.3rem;
         margin: 0 2vw;
@@ -76,13 +76,13 @@
         margin: 0 2vw;
     }
     .room_1 h3{
-        font-size: 1.3rem;
+        font-size: 1rem;
         position: absolute;
         left: 51vw;
     }
     .room_1 h4{
         position: absolute;
-        top: 17%;
+        top: 12%;
         right: -122%;
         font-size: 0.1rem;
     }
@@ -94,13 +94,13 @@
  
     .room_2{
         position: relative;
-        top: -10vw;
+        top: -20vw;
     }
     .room_2 h3{
-        font-size: 1.3rem;
+        font-size: 1rem;
         position: absolute;
         right: 45vw;
-        top: 42vw;
+        top: 45vw;
     }
     .room_2 h4{
         position: absolute;
@@ -117,7 +117,7 @@
     }
     .room_3{
         position: absolute;
-        top: 340vw;
+        top: 333vw;
     }  
     .room_3 p{
         position: absolute;
@@ -126,10 +126,10 @@
         font-size: 1rem;
     }
     .room_3 h3{
-        font-size: 1.3rem;
+        font-size: 1rem;
         position: absolute;
         right: 23vw;
-        top: 34vw;
+        top: 37vw;
     }
     .room_3 h4{
         position: absolute;
