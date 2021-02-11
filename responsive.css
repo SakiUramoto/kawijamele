@@ -34,16 +34,6 @@
     .shop_title span{
         font-size: 1.0rem;
     }
-    .yomogi_consept h3{
-        font-size: 1rem;
-    }
-    .moringa h3{
-        font-size: 1rem;
-    }
-    .price_concept{
-        margin: 0 2vw;
-    }
-
 
     .tittle_logo h1 {
         width: 100%;
@@ -149,40 +139,27 @@
     .googlemap iframe{
         width:100%;
     }
-    .instagram_pic{
-        display: none;
-    }
+
     .shop_information{
         font-size: 1px;
     }
     .yomogi_contents{
         display: block;
+        text-align: center;
     }
     .yomogi_pic{
         width: 100%;
     }
-    .yomogi_text h2{
-        text-align: center;
-        margin: 0 2vw;
-    }
-    .yomogi_text p{
-        text-align: center;
-        margin: 3vw 2vw;
-    }
-    .yomogi_consept p{
-        font-size: 11px;
-        right: 5%;
-    }
-    .moringa_text h2{
-        text-align: left;  
-          
-    }
-    .moringa h3{
-        top: -12vw;
-    }
-    .moringa_text p{
-        font-size: 12px;
-        text-align: left;
-
-    }
+   .yomogi_concept{
+       display: block;
+   }
+   .yomogi_text h4{
+       text-align: center;
+   }
+   .yomogi_text p{
+       text-align: center;
+   }
+   .yomogi_price{
+       display: block;
+   }
 }
