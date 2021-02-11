@@ -179,4 +179,13 @@
    .price_list h3{
        padding-top: 5vw;
    }
+   .insta{
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       right: 0;
+   }
+   footer p{
+       margin: 15vw 0;
+   }
 }
