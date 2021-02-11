@@ -231,6 +231,18 @@ body{
 .contact a{
     text-decoration: none;
 }
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color:rgba(44, 44, 44, 0.63);
+  border-radius: 3px;
+  padding: 8px 35px;   
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #919090;
+}
 .yomogi_menu{
     max-width: 1300px;
     margin: 0 auto;
