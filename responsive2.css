@@ -18,21 +18,8 @@
         position: absolute;
         top: 198%;
     }
-    .yomogi_consept p {
-        font-size: 8px;
-    }
-    .moringa_text p{
-        font-size: 10px;
-        right: 3vw;
-    }
-    .moringa_pic{
-        right: 5%;
-    }
-    .moringa h3{
-        right: 6vw;
-    }
     .shop_information {
-        font-size: 1.2rem;
+        font-size: 1px;
     }
     .concept_title h2{
         font-size: 1.2rem;
