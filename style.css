@@ -82,74 +82,56 @@ body{
     writing-mode: vertical-lr;
     position: absolute;
     left: 98%;
+    top: 0;
     font-size: 20px;
 }
-.room_1 h3{
+.number{
+    text-align: right;
     font-size: 20px;
+    border-bottom: 1px solid;
+    width: 3%;
+    margin-right: 10px;
+ }
+ .room_1 h3{
     position: absolute;
-    left: 107%;
-    border-bottom: #777676 solid 1px;
+    right: -60%;
+    top: 0;
+    }
 
-}
-.room_1 h4{
-    position: absolute;
-    right: -59%;
-    top: 3%;
-}
 .room_2{
-    position: relative;
-    top: -250px;
-    left: 40%;
-    width: 60%;
+    margin-left: 40%;
+    margin-top: -12%
 }
 .room2{
     width: 100%;
 }
-.room_2 h3{
-    font-size: 20px;
-    position: absolute;
-    right: 33%;
-    top: 97%;
-    border-bottom: #777676 solid 1px;
-}
+ .room_2 h3{
+     text-align: right;
+     margin: 0;
+    }
+ .room_3{
+     width: 100%;
+     height: auto;
+     margin-top: -35%;
+ }
 .room_2 p{
-    position: absolute;
-    top: 96%;
-    right: 0%;
-    font-size: 20px;
-}
-.room_2 h4{
-    position: absolute;
-    right: 0%;
-    top: 102%;
-}
-.room_3{
-    width: 30%;
-    height: auto;
-    position: absolute;
-    top: 222%;
-}
+        margin: 0;
+        font-size: 20px;
+        text-align: right;
+    }
 .room3{
-    width: 100%;
+    width: 35%;
 }
 .room_3 h3{
-    font-size: 20px;
-    position: absolute;
-    right: -8%;
-    top: 80%;
-    border-bottom: #777676 solid 1px;
+    width: 100%;
+    text-align: left;
+    margin: 0;
 }
 .room_3 p{
-    writing-mode: vertical-lr;
-    position: absolute;
-    top: 53%;
-    right: -15%;
+    width: 100%;
+    margin: 0;
     font-size: 20px;
-}
-.room_3 h4{
-    position: absolute;
-    right: -65%;
-    top: 80%;
+    text-align: left;
 }
 .profile{
     flex: 1;
@@ -226,15 +208,21 @@ body{
 }
 .simple{
     flex: 1;
-    padding: 20px;
+    border-top: solid 10px #777676;
+    background-color: #7776761e;
+    margin: 10px;
 }
 .sample{
     flex: 1;
-    padding: 20px;
+    border-top: solid 10px #777676;
+    background-color: #7776761e;
+    margin: 10px;
 }
 .puratina{
     flex: 1;
-    padding: 20px;
+    border-top: solid 10px #777676;
+    background-color: #7776761e;
+    margin: 10px;
 }
 .contact{
     text-align: center;
@@ -242,18 +230,6 @@ body{
 }
 .contact a{
     text-decoration: none;
-}
-.btn--orange,
-a.btn--orange {
-  color: #fff;
-  background-color:rgba(44, 44, 44, 0.63);
-  border-radius: 3px;
-  padding: 8px 35px;  
-}
-.btn--orange:hover,
-a.btn--orange:hover {
-  color: #fff;
-  background: #919090;
 }
 .yomogi_menu{
     max-width: 1300px;
@@ -365,7 +341,8 @@ a.btn--orange:hover {
 }
 .googlemap{    
     width:100%;    
-    text-align: center;    
+    text-align: center;  
+    margin-top: 30px;
 }
 
 .shop_informaition tr,th,td{
@@ -383,59 +360,9 @@ table{
     max-width: 1300px;
     margin: 0 auto;
 }
-
-.instagram-media{
-    display: inline;
-}
-.insta_btn2{/*ボタンの下地*/
-    color: #FFF;/*文字・アイコン色*/
-    border-radius: 7px;/*角丸に*/
-    position: relative;
-    display: inline-block;
-    height: 50px;/*高さ*/
-    width: 200px;/*幅*/
-    text-align: center;/*中身を中央寄せ*/
-    font-size: 24px;/*文字のサイズ*/
-    line-height: 50px;/*高さと合わせる*/
-    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
-    overflow: hidden;/*はみ出た部分を隠す*/
-    text-decoration:none;/*下線は消す*/
-    
-  }
-  
-  .insta_btn2:before{/*グラデーション②*/
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;/*全体を覆う*/
-    height: 100%;/*全体を覆う*/
-    background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
-    background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
-  }
-  
-  .insta_btn2 .fa-instagram{/*アイコン*/
-    font-size: 35px;/*アイコンサイズ*/
-    position: relative;
-    top: 4px;/*アイコン位置の微調整*/
-  }
-  
-  .insta_btn2 span {/*テキスト*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display:inline-block;
-    position: relative;
-    transition: .5s
-  }
-  
-  .insta_btn2:hover span{/*ホバーで一周回転*/
-    -webkit-transform: rotateX(360deg);
-    -ms-transform: rotateX(360deg);
-    transform: rotateX(360deg);
-  }
-
-  footer{
+ footer{
     text-align: center;
+    margin-top: 30px;
 }
 .copyright{
     max-width: 100%;
@@ -445,4 +372,30 @@ table{
 }
 footer p{
     font-family: sans-serif;
+    margin: 0;
 }
+.flowbtn17{
+    border-radius:50%;
+    position:relative;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    font-size:30px;
+    text-decoration:none;
+    transition:.5s;
+    background-color:#777676;
+    color:#fff;
+    }
+    /* ボタンマウスホバー時のテキスト指定 */
+    .flowbtn17:hover{
+    text-decoration:none;
+    }
+    /* アイコンをど真ん中に */
+    .flowbtn17 i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    }

@@ -2,27 +2,18 @@
     .tittle_logo h1{
         right: 8vw;
     }
-    .room_1 h4{
-        top: 5vw;
-    }
-    .room_1 h3{
-        left: 48vw;
-    }
-    .room_1 p{
-        left: 38vw;
-    }
-    .room_2 h3{
-        right: 48vw;
-    }
-    .room_3{
-        position: absolute;
-        top: 198%;
-    }
+    
     .shop_information {
         font-size: 1px;
     }
     .concept_title h2{
         font-size: 1.2rem;
+    }
+    .price_1{
+        width: 88vw;
+    }
+    .price_2{
+        width: 88vw;
     }
 
 }
