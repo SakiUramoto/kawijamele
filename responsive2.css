@@ -4,7 +4,7 @@
     }
     
     .shop_information {
-        font-size: 1px;
+        font-size: 1rem;
     }
     .concept_title h2{
         font-size: 1.2rem;
@@ -14,6 +14,12 @@
     }
     .price_2{
         width: 88vw;
+    }
+    .yomogi_text p{
+        font-size: 1.4rem;
+    } 
+    .yomogi_catch{
+        font-size: 1.5rem;
     }
 
 }
