@@ -14,18 +14,11 @@
         display: block;
     } 
     .menu{
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin: 0 2vw;
     }
     .menu span{
-        font-size: 1.0rem;
-    }
-    .yomogi_menu{
-        font-size: 1.3rem;
-        margin: 0 2vw;
-    }
-    .yomogi_menu span{
-        font-size: 1.0rem;
+        font-size: 1.5rem;
     }
     .tittle_logo h1 {
         width: 100%;
@@ -100,18 +93,18 @@
     text-align: center;
    }
    .room_1 h3{
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     position: static;
     margin: 0;
    }
    .room_2 h3{
     right: -50vw;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     text-align: center;
    }
    .room_3 h3{
     right: -50vw;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     text-align: center;
    }
     .price_list{
@@ -128,7 +121,7 @@
     }
 
     .shop_information{
-        font-size: 0.5rem;
+        font-size: 1.2rem;
     }
     .yomogi_contents{
         display: block;

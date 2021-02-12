@@ -1,3 +1,6 @@
+html {
+    font-size: 62.5%;
+  }
 body{
     width: 100%;
     height: auto;
@@ -62,9 +65,14 @@ body{
 .concept_title h2{
     display: block;
     margin: 0 auto;
+    font-size: 25px;
 }
 .concept_title h3{
     margin-top: 0;
+    font-size: 20px;
+}
+.text{
+    font-size: 15px;
 }
 .room{
     max-width: 1300px;
@@ -94,8 +102,9 @@ body{
  }
  .room_1 h3{
     position: absolute;
-    right: -60%;
+    right: -52%;
     top: 0;
+    font-size: 15px;
     }
 
 .room_2{
@@ -108,6 +117,7 @@ body{
  .room_2 h3{
      text-align: right;
      margin: 0;
+     font-size: 15px;
     }
  .room_3{
      width: 100%;
@@ -126,6 +136,7 @@ body{
     width: 100%;
     text-align: left;
     margin: 0;
+    font-size: 15px;
 }
 .room_3 p{
     width: 100%;
@@ -184,20 +195,22 @@ body{
 .price_concept{
     text-align: center;
     padding: 30px 0;
-    margin-top: 30px;
+    margin-top: 30px;    
+    font-size: 16px;
 }
 .cocept_txst{
-    font-size: 15px;
+    font-size: 13px;
 }
 .price_list span{
     font-size: 9px;
     margin: 0 10px;
 }
 .price_list h3{
-    margin: 0;
+    margin-bottom: 0;
+    font-size: 16px;
 }
 .price_list h4{
-    font-size: 16px;
+    font-size: 18px;
 }
 .price_list h5{
     margin: 0;
@@ -237,6 +250,7 @@ a.btn--orange {
   background-color:rgba(44, 44, 44, 0.63);
   border-radius: 3px;
   padding: 8px 35px;   
+  font-size: 15px;
 }
 .btn--orange:hover,
 a.btn--orange:hover {
@@ -261,6 +275,7 @@ a.btn--orange:hover {
 .yomogi_contents{
     display: flex;
     margin-top: 30px;
+    align-items: center;
 }
 .yomogi_pic{
     flex: 1;
@@ -271,12 +286,13 @@ a.btn--orange:hover {
     text-align: center;
 }
 .yomogi_text p{
-    font-size: 12px; 
+    font-size: 15px; 
     text-align: left;   
 }
 .yomogi_text h4{
     text-align: left;
     margin: 0;
+    font-size: 17px;
 }
 .yomogi_concept{
     display: flex;
@@ -293,13 +309,14 @@ a.btn--orange:hover {
 .moringa_text h4{
     text-align: center;
     margin: 0;
+    font-size: 17px;
 }
 .moringa_text p{
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
 }
 .yomogi_catch{
-    font-size: 13px;
+    font-size: 17px;
     text-align: center;
 }
 .yomogi_price{
@@ -311,8 +328,11 @@ a.btn--orange:hover {
     margin-bottom: 0;
 }
 .yomogi_price h5{
-    font-size: 10px;
+    font-size: 11px;
     margin: 0;
+}
+.yomogi_price h3{
+    font-size: 18px;
 }
 .price_1{
     width: 100%;
@@ -342,11 +362,9 @@ a.btn--orange:hover {
 .shop_information{
     flex: 1;
     width: 100%;
+    font-size: 15px;
 }
-.shop_title span{
-    font-size: 20px;
-    padding: 0 10px;
-}
+
 .map{
     width: 100%;
    flex: 1;
@@ -361,6 +379,7 @@ a.btn--orange:hover {
     border: 1px solid #999;
     padding: 10px;    
 }
+
 table{
     text-align: left;
     width: 100%;
@@ -371,6 +390,7 @@ table{
     display: flex;
     max-width: 1300px;
     margin: 0 auto;
+    align-items: flex-end;
 }
  footer{
     text-align: center;
@@ -384,6 +404,7 @@ table{
 footer p{
     font-family: sans-serif;
     margin: 0;
+    font-size: 13px;
 }
 .flowbtn17{
     border-radius:50%;
@@ -409,4 +430,7 @@ footer p{
     -ms-transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
     transform:translate(-50%,-50%);
+    }
+    .insta{
+        margin: 25px 0;
     }
