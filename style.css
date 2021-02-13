@@ -172,6 +172,10 @@ body{
     margin: 0 auto;
     padding: 25px 0;
 }
+.nail_pc1,.nail_pc2,.nail_pc3{
+    display: block;
+} 
+
 .price_list{
     margin: 0 auto;
     display: flex;
