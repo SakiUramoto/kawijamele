@@ -14,7 +14,7 @@
         display: block;
     } 
     .menu{
-        font-size: 1.5rem;
+        font-size: 1.0rem;
         margin: 0 2vw;
     }
     .menu span{
@@ -50,6 +50,11 @@
     }
     .concept_title h3{
         font-size: 2.3rem;
+    }
+    .text{
+        margin: 0 10vw;
+        text-align: left;
+        font-size: 1.4rem;
     }
     .room1{
         width: 70%;
@@ -147,43 +152,73 @@
        display: block;
    }
    .yomogi_text h4{
-       text-align: center;
+       text-align: left;
+       font-size: 1.8rem;
+       margin: 5vw 0;
    }
    .yomogi_text p{
-       text-align: center;
+       text-align: left;
+       font-size: 1.3rem;
    }
    .yomogi_price{
        display: block;
    }
+   .moringa_pic{
+       margin: 5vw 0;
+   }
+   .moringa_text p {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 5vw;
+   }
+   .moringa_text h4 {
+       text-align: left;
+       font-size: 1.8rem;
+       margin: 5vw 0;
+   }
    .price_1{
-    width: 80vw;
     margin: 0 auto;
     margin-bottom: 10vw;
    }
    .price_2{
-    width: 80vw;
     margin: 0 auto;
     margin-bottom: 10vw;
    }
-   .simple{
-    margin: 10vw;
+  
+   .price{
+       margin: 0 5vw;
    }
-   .sample{
-    margin: 10vw;
-   }
-   .puratina{
-    margin: 10vw;
+   .price_container{
+       padding: 5vw;
    }
    .price_concept{
        padding: 0;
-       margin: 0;
-       padding-top: 10vw;
+       font-size: 1.4rem;
+       text-align: left;
+       margin-bottom: 10vw;
+       
+   }
+   .cocept_txst{
+    text-align: left;
+    margin-top: 5vw;
+    font-size: 1.2rem;
    }
    .price_list p{
        padding-bottom: 5vw;
+       font-size: 1rem;
    }
-   .price_list h3{
-       padding-top: 5vw;
+   .price_list h4{
+       margin: 2vw 0;
+   }
+   .btn--orange, a.btn--orange {
+       font-size: 1.2rem;
+   }
+   .yomogi{
+       margin: 0 10vw;
+   }
+   .yomogi_catch{
+    margin: 13vw 0;
+    font-size: 1.3rem;
    }
    table{
     width: 90%;
@@ -191,7 +226,7 @@
    } 
    .insta{
        position: fixed;
-       bottom: 0;
+       bottom: 6%;
        left: 0;
        right: 0;
    }
